@@ -4,7 +4,9 @@ Please refer to that repository for more information on the project as a whole.
 
 Each of the clean_X.py script perform the cleaning described in the section **Data Cleaning**.
 
-The **dev_10k** folder contains 10k sentences from each of the data categories, for development purposes. The **annotation** folder contains an extra 500 sentences from each category, for manual annotation purposes.
+The **dev_5k** folder contains 5k sentences from each of the data categories, for development purposes. The **rbm_5k** folder contains the gender-neutral version of the sentences from the **dev_5k** files. These 2 folders are a parallel dataset, where the binary-gendered version is on the **dev_5k** files, and the gender-neutral version as outputed by our rule-based model is in the **rbm_5k** files. 
+
+The **gendered_annotation** folder contains an extra 100 sentences from each category, for manual annotation purposes.
 
 # Categories
 The dataset is split into 5 categories of textual data:
